@@ -1,1 +1,3 @@
-"# robot-game" 
+# robot-game
+
+Robot game created from assembly. The player is placed on a board represented by "." as movable spaces and "#" as borders and rubble. Robot "M" will move closer towards the player to try to catch him. An entity is removed if they crash into another entity or move into a wall or rubble. If two entities crash into each other a need rubble is made. The player is able to move in the board using "WASD" and "J" to jump to a random location within the borders. Using "J" may jump the player to a random rubble and end the game. The game ends when either the player is destroyed or all robots are destroyed.
